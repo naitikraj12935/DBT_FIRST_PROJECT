@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: RAW          # your raw database
+    schema: jaffle_shop    # your schema inside RAW
+    tables:
+      - name: orders
+      - name: customers

@@ -1,0 +1,1 @@
+select order_date,count(*) as order_count from {{ref('ORDERS')}} group by 1
